@@ -6,13 +6,13 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "lURFyABC#QHs3FFAl1N3jcZxqT4iEmftOR_1wB4pOll2CZx2SkGo",
+    SESSION_ID: process.env.SESSION_ID || "𝗛𝗜𝗥𝗨-𝗫-𝗠𝗗=8AwESRoY#SC_n1zKoSCRfC08lBz4BTnMf8wx1zt4O_JETjnOmumk",
     // add your Session Id 
 
     AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
     // make true or false status auto seen
 
-    AUTO_AI: process.env.AUTO_AI || 'false',
+    AUTO_AI: process.env.AUTO_AI || 'true',
     // add your bot owner number
 
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
@@ -44,7 +44,7 @@ module.exports = {
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
     // make this true for custom emoji react 
 
-    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍",
+    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "🥱,🤓,💞,🌹,🐵,🧡,💛,💚,😁,🤍,🤫,💀,💐",
     // choose custom react emojis by yourself 
 
     DELETE_LINKS: process.env.DELETE_LINKS || "false",
@@ -76,7 +76,7 @@ module.exports = {
     AUTO_TYPING: process.env.AUTO_TYPING || "false",
     // true for automatic show typing 
 
-    READ_CMD: process.env.READ_CMD || "teue",
+    READ_CMD: process.env.READ_CMD || "true",
     // true if want mark commands as read 
 
     DEV: process.env.DEV || "94773024361",
