@@ -44,7 +44,7 @@ module.exports = {
     CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
     // make this true for custom emoji react 
 
-    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "🥱,🤓,💞,🌹,🐵,🧡,💛,💚,😁,🤍,🤫,💀,💐",
+    CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "🥱,🤓,🌏,🌹,🐵,🧀,🍉,🕷️,😁,🤗,🤫,💀,💐",
     // choose custom react emojis by yourself 
 
     DELETE_LINKS: process.env.DELETE_LINKS || "false",
